@@ -3,8 +3,8 @@
 import json
 from optparse import OptionParser
 from collections import OrderedDict
-
-parser = OptionParser(usage='Imput parameters')
+#Converting single-line BB file to multi-line BB file. This may be usefull to commit changes to BB file and store it on github.
+parser = OptionParser(usage='Input parameters')
 parser.add_option('-i', dest="ifilename", help='input file')
 parser.add_option('-o', dest="ofilename", help='input file')
 parser.add_option('-d', action='store_true', dest="debug", default=False, help='debug')
